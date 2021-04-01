@@ -1,0 +1,284 @@
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+	color: ;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+div, p, input, button, form, span, a, ul, li{
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:900;
+
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+background: rgba(78,189,254,1);
+background: -moz-linear-gradient( rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -webkit-gradient(  color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+background: -webkit-linear-gradient( rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient( rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: -ms-linear-gradient( rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient( rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+padding-bottom: 100.02px;
+color: #fff
+}
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.offer{
+	/*margin-top: 140px;*/
+	font-family: 'Ubuntu', sans-serif;
+    width:564px; 
+}
+.title{
+	font-size: 30px;
+}
+.title span{
+	font-size: 50px;
+}
+.intro{
+	margin-bottom: 40px;
+	width: 406px;
+
+}
+.btn{
+	background: #ffd429;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 205px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight:900;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+	background:#d4ac0c;
+}
+.sumka{
+	margin-top: 50.00px;
+
+}
+.learn{
+	padding-top: 108px;
+	padding-bottom: 120px;
+}
+.section-title{
+	font-size: 30px;
+    margin-bottom:70.00px;
+    text-align: center;
+}
+.skill{
+	width: 290px;
+	text-align: center;
+}
+.skills{
+	display: flex;
+	justify-content: space-between;
+	}
+img.size{
+		padding-bottom: 50px;
+	}
+.skill-title{
+	width: 290px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.mail{
+	background: #ecf2f8;
+	padding-top: 111px;
+	padding-bottom: 100px;
+	
+}
+.section-titlee{
+	font-size: 30px;
+	padding-bottom: 35px;
+	text-align: center;
+	 
+}
+.btn-form{
+	width: 340px;
+	border: 0;
+	cursor: pointer;
+}
+.form{
+	display:flex; 
+	flex-direction: column; 
+	align-items: center;
+}
+
+.input{
+	display: block;
+	width: 340px;
+	border: #bbbbbb;
+	font-size: 15px;
+	font-family: open sans, sans-serif;
+	height: 47px;
+	padding-left: 23px;
+	margin-bottom: 15px;}
+  
+.footer{
+	padding:65px 0;
+	background: #164d7a; 
+}
+.prava{
+	font-size:14px;
+	color:#ffffff;
+    text-align: center;
+}
+
+
+
+
+
+	/* 992px - 1200px */
+@media screen and (max-width: 1200px){
+.container{
+	width: 960px;
+		 }
+.offer{
+    width: 960px;}
+.intro{
+	margin-left: 0 auto;
+}
+.wrapper{
+	/*flex-direction: column;*/
+	margin-left: 0 auto;
+
+	 }
+.sumka{
+	width: 600px;
+	display: block;
+	margin: 0 auto;
+	margin-left: 0;*/
+}
+.section-title{
+	width: 750px;
+}
+.skills{
+	flex-direction: column;
+	/*width: 960px;*/
+}
+.skill{
+      margin-left: 230px; nj
+    }
+    .section-titlee{
+    	width: 750px;
+    }
+    .form{
+    	width: 750px;
+    }
+    .prava{
+    	width: 750px;
+    }
+
+}
+.animated{
+	opacity: 0;
+}
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    .container{
+        width:720px;
+ }
+    .wrapper{
+	flex-direction: column;
+	margin-left: 0 auto;}
+    .sumka{
+	display: block;
+	margin: 0 auto;
+	margin-left: 0;}
+
+    .offer{
+    	width:720px;
+    }
+    .skill{
+      margin-left: 200px;
+  }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+.container{
+	width:540px ;
+}
+.offer{
+    width:540px ;
+    }
+.sumka{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+}
+.section-title{
+	width:540px ;
+}
+.skill{
+   margin-left: 100px;
+  }
+ .section-titlee{
+ 	width:540px ;
+ 	} 
+.form{
+	width:540px;
+}
+.prava{
+	width: 540px;
+}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px){
+.container{
+	width: 90%;}
+
+.offer{
+    width:284px ;
+    }
+    .intro{
+    width:284px ;
+    }
+.sumka{
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+}
+.section-title{
+	width:284px ;
+}
+.skill{
+      margin-left: 10px;
+  }
+ .section-titlee{
+ 	width:284px ;
+ 	} 
+.form{
+	width: 90%;
+}
+.form{
+	width:284px;
+}
+.btn btn-form{
+	width: 90%;
+}
+.prava{
+	width: 284px;
+}
+}
+    
+
+
